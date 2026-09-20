@@ -1,0 +1,14 @@
+name: ShazeSzaman
+version: 1.0
+main: pl.shaze.szaman.SzamanPlugin
+api-version: 1.20
+commands:
+  szaman:
+    description: Otwiera GUI Szamana
+    permission: szaman.use
+  ustawodlamek:
+    description: Ustawia przedmiot w reke jako odlamek
+    permission: szaman.admin
+  resetujperki:
+    description: Resetuje wszystkie perki gracza
+    permission: szaman.use
